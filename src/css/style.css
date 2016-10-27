@@ -81,6 +81,9 @@ margin:0px auto 0px auto;
 text-align: center;
 padding: 10px;
 }
+.wrap-image-buttons button:hover {
+background-color: #333;	
+}
 /*3*/
 .wrap-canvas-background-color {
 width: 600px;
@@ -351,9 +354,8 @@ border:2px solid #333;
 .wrap-range #value:focus {
 border:2px solid #333;	
 }
-button:hover {
-background-color:#33605d;
-color:#fff;
+.wrap-modes button:hover {
+background-color:#333;
 }
 #delete:hover , #delete-all:hover{
 background-color:#603336;
