@@ -111,6 +111,7 @@ return false;
 });
 
 //Click button to activate selection mode
+$("#selection").addClass('active');
 $("#selection").click(function() {
 canvas.isDrawingMode = false;
 $(this).addClass('active');
