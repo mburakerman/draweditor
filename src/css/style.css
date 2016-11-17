@@ -140,8 +140,7 @@ text-align: center;
 }
 #text {
 width:225px;
-height:auto;
-padding:5px 0px;
+height:32px;
 font-size: 15px;
 display: inline-block;
 border-radius: 5px;
