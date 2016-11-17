@@ -190,7 +190,8 @@ outline: none;
 }
 input[type=range] {
 -webkit-appearance: none;
-margin: 10px 0;
+position: relative;
+top:2px;
 width: 99px;
 }
 input[type=range]:focus {
