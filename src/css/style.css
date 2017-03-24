@@ -13,6 +13,12 @@ body {
     background-color: #fff;
     box-sizing: border-box;
 }
+.loader {
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+}
 button {
     color: #fff;
     background-color: #407975;
