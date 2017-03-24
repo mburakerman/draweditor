@@ -1,6 +1,3 @@
-$(".loader").show();
-$(".page_wrapper").hide();
-
 $(function() {
     $(".loader").fadeOut(500, function() {
         $(".page_wrapper").show();
