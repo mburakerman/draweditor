@@ -1,4 +1,11 @@
+$(".loader").show();
+$(".page_wrapper").hide();
+
 $(function() {
+    $(".loader").fadeOut(500, function() {
+        $(".page_wrapper").show();
+    });
+    
     //Create a canvas
     var canvas = new fabric.Canvas('c', {
         isDrawingMode: false
