@@ -19,6 +19,9 @@ body {
     top:50%;
     transform:translate(-50%,-50%);
 }
+.page_wrapper {
+    display: none;
+}
 button {
     color: #fff;
     background-color: #407975;
