@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina|Source+Sans+Pro:400,700');
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 1.05px;
+    line-height: 1.5;
+    outline: none;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #717f86;
+}
+
+.loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.page_wrapper {
+    display: none;
+}
+
+header,
+footer {
+    text-align: center;
+}
+
+header a {
+    color: #EA9085;
+}
+
+a {
+    text-decoration: none;
+    color: #777;
+}
+
+header h1 {
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+header p {
+    font-size: 15px;
+    margin-bottom: 75px;
+}
+
+.draweditor-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left-column {
+    width: 40%;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.right-column {
+    text-align: center;
+}
+
+.ezdz-dropzone {
+    width: auto !important;
+}
+
+#c {
+    outline: 5px dashed #555;
+}
+
+button, #save {
+    color: #fff;
+    background: rgba(234, 144, 133, 1);
+    font-size: 16px;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+
+.wrap-modes button:not(.active) {
+    background: lightgray;
+}
+
+button:hover, #save:hover {
+    background: rgba(234, 144, 133, .85);
+}
+
+input[type="text"],
+select {
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+input[type="text"]:hover,
+input[type="text"]:focus,
+select:hover,
+select:focus {
+    border: 1px solid #EA9085 !important;
+}
+
+
+/* color picker stylings */
+
+[data-control="hue"] {
+    height: 30px !important;
+    border-radius: 5px !important;
+    border: 1px solid lightgrey;
+}
+
+
+/* end color picker stylings */
+
+
+/* wrap-area gaps */
+
+.ezdz-dropzone {
+    height: 100px !important;
+    border: 10px dotted lightgray !important;
+    border-radius: 5px !important;
+}
+
+.ezdz-dropzone p {
+    position: relative;
+    top: 25px;
+}
+
+.wrap-canvas-background-color,
+.wrap-text {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.wrap-delete {
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.wrap-save {
+    margin-top: 20px;
+}
+
+
+/*end wrap-area gaps */
+
+.wrap-text {
+    text-align: left;
+}
+
+.wrap-text #text {
+    width: 100%;
+    height: 40px;
+    padding: 3px 6px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+
+.wrap-text select {
+    float: right;
+    width: 50%;
+    height: 40px;
+    padding: 3px 6px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+
+.wrap-range {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.wrap-range input[type="range"] {
+    width: 70%;
+    position: relative;
+    top: 6px;
+}
+
+.wrap-range input[type="text"] {
+    float: right;
+    width: 40px;
+    padding: 3px 6px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+
+.wrap-draw-color {
+    float: left;
+    margin-top: 10px;
+}
+
+footer {
+    margin-top: 75px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+footer p {
+    display: inline-block;
+}
+
+footer p.about {
+    margin-left: 30px;
+}
+
+#about {
+    max-width: 500px;
+    padding: 30px 20px;
+    border-radius: 5px;
+    border: 2px solid #555;
+}
+
+#about p {
+    font-size: 18px;
+}
+
+.svg-icon {
+    width: 15px;
+    position: relative;
+    top:2px;
+}
+
+ 
