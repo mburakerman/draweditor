@@ -1,4 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina|Source+Sans+Pro:400,700');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina|Source+Sans+Pro:400,600');
+@import url('normalize.css');
+@import url('wenk.min.css');
+@import url('lity.min.css');
+@import url('jquery.ezdz.min.css');
+@import url('jquery.minicolors-2.1.2.css');
+@import url('jquery.minicolors-2.1.2.css');
+
 html {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -89,7 +96,8 @@ header p {
     outline: 5px dashed #555;
 }
 
-button, #save {
+button,
+#save {
     color: #fff;
     background: rgba(234, 144, 133, 1);
     font-size: 16px;
@@ -107,7 +115,8 @@ button, #save {
     background: lightgray;
 }
 
-button:hover, #save:hover {
+button:hover,
+#save:hover {
     background: rgba(234, 144, 133, .85);
 }
 
@@ -243,7 +252,5 @@ footer p.about {
 .svg-icon {
     width: 15px;
     position: relative;
-    top:2px;
+    top: 2px;
 }
-
- 
