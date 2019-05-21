@@ -128,7 +128,8 @@ $(function () {
     });
 
     // click button to activate selection mode
-    $("#selection").addClass('active');
+    $("#draw").addClass('active');
+    canvas.isDrawingMode = true;
     $("#selection").click(function () {
         canvas.isDrawingMode = false;
         $(this).addClass('active');
@@ -184,32 +185,12 @@ $(function () {
     // save canvas as image
     $("#save").click(function () {
         $("#save").attr("href", canvas.toDataURL());
-        $("#save").attr("download","draweditor")
-    });
-
-    // about modal
-    var modal = $('.modal');
-    var overlay = $(".overlay");
-    overlay.hide();
-    $('.open-modal').click(function () {
-        modal.show();
-        overlay.show();
-    });
-
-    $('.close-modal').click(function () {
-        modal.hide();
-        overlay.hide();
-    });
-
-    $(".overlay").click(function () {
-        modal.hide();
-        overlay.hide();
+        $("#save").attr("download", "draweditor")
     });
 });
 
-
 // confirmation before closing the tab
-window.onbeforeunload = function(e) {
+window.onbeforeunload = function (e) {
     e = e || window.event;
     if (e) {
         e.returnValue = 'Sure?';
